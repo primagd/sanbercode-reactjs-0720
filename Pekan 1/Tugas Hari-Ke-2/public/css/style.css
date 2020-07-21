@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    background-image: url("../img/pattern.jpg");
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.header .logo {
+    margin-top: 5px;
+    float: left;
+}
+
+.header .navigation li {
+    float: right;
+    display: block;
+    margin-right: 33px;
+    margin-top: 8px;
+}
+
+.judul {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    margin-top: -10px;
+    margin-right: 95px;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-bottom: 50px;
+    margin-left: 95px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input {
+    position: relative;
+    left: 150px;
+}
+
+.form {
+    position: relative;
+    left: 105px;
+}
+
+.button {
+    margin-left: 145px;
+    margin-top: -40px;
+}
+
+.textarea {
+    margin-left: 65px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    height: 58px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: azure;
+    margin-top: 30px;
+}
