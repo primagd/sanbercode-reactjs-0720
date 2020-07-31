@@ -1,6 +1,7 @@
 console.log('---------------Soal 1---------------')
 
 let phi = 3.14
+    //lebih baaik menggunakan const (karena tetap atau tidak akan berubah)
 
 const kelilingLingkaran = (r) => {
     console.log("Hasil Keliling Lingkaran: " + phi * r * r);
@@ -12,6 +13,7 @@ kelilingLingkaran(10)
 luasLingkaran(5)
 
 
+
 console.log('---------------Soal 2---------------')
 
 let kalimat = ""
@@ -21,30 +23,37 @@ const gabungKalimat = (a, b, c, d, e) => {
     return console.log(kalimat);
 }
 
+//atau
+//const gabungKalimat = (str) => {
+//     kalimat = `${kalimat} ${str}`
+// }
+
 
 gabungKalimat('saya', 'adalah', 'seorang', 'frontend', 'developer')
+
+
 
 console.log('---------------Soal 3---------------')
 
 class Book {
     constructor(name, hal, price) {
-        this.name = name;
-        this.totalPage = hal;
-        this.price = price;
-    }
-    present() {
-        return this.name + this.totalPage + this.price;
-    }
+            this.name = name;
+            this.totalPage = hal;
+            this.price = price;
+        }
+        // present() {
+        //     return this.name + this.totalPage + this.price;
+        // }
 }
 
 class Komik extends Book {
     constructor(name, hal, price) {
-        super(name, hal, price)
-        this.isColorful = false;
-    }
-    show() {
-        return this.present + this.isColorful
-    }
+            super(name, hal, price)
+            this.isColorful = false;
+        }
+        // show() {
+        //     return this.present + this.isColorful
+        // }
 }
 
 buku = new Book("Filosofi Teras", 180, 95000)
